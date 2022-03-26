@@ -3,7 +3,6 @@
 <head>
 <style>
 
-
 .box {
   background-color: lightblue;
   color: black;
@@ -28,32 +27,32 @@
   background-color: tomato;
   color: white;
   padding: 10px;
-  text-align: center;
-}
-.btn{
-  margin-left:5px;
-  border: none;
-  color: white;
-  padding: 15px 30px;
-  font-size: 30px;
-  cursor: pointer;
-  text-align: left;
+   text-align: center;
 }
 .ig{
-  margin-left: 1140px;
-  background-color: tomato;
-   
+	border-radius: 20px;
+   width: 70px;
+    height: 70px;
+    line-height: 70px;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    background-color:tomato ;
 }
-      
-        
+.bdcard{
+    width: 300px;
+    float:left; /* 圖片在左邊 */
+    padding: 20px;
+}
+.bdcard img{
+    display: block;
+    width:100%;
+}
 
-         
- 
 
-
+     
 </style>
 </head>
-
 
 <h1 style="border: 2px solid Tomato;">歡迎來到我的網站</h1>
 
@@ -67,20 +66,32 @@
 <p>打籃球</p>
 <p>玩手遊</p>
 <p>遊戲介面:</p>
-<img src="IMG_3996"  width="500" height="333">
+<div style="text-align: left; width: 500px; border: green solid 1px; ">
+<img alt="" src="https://upload.cc/i1/2022/03/26/8utrVb.png
+"alt="嗨"width="400" height="800" style="margin: 0 auto;" />
+</div>
+<div style="text-align: center; width: 500px; border: green solid 1px; ">
+<img alt="" src="https://upload.cc/i1/2022/03/26/1odyzA.png
+"alt="嗨"width="600" height="400" style="margin: 0 auto;" />
+</div>
 <hr>
 <h2 class="tree">個人通訊</h2>
-
-<button class="btn ig" onclick="window.open('https://www.instagram.com/kkdd_0725/', '_blank')">
+<button class="ig" onclick="window.open('https://www.instagram.com/kkdd_0725/', '_blank')">
 		<b>
 			IG
         </b>
         </button>
+<h2 class="tree">專業證照</h2>
+<h3>高職</h3>
 
-
-
-
-
+<ol>
+<li>電腦硬體裝修乙級</li>
+<li>數位電子乙級</li>
+<li>電腦硬體裝修丙級</li>
+<li>網路架設丙級</li>
+<li>工業電子丙級</li>
+  
+</ol>  
 
 </body>
 </html>
