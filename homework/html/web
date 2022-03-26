@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.box {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  text-align: center;
+} 
+.box{
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.tree {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.btn{
+  margin-left:5px;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: left;
+}
+.ig{
+  margin-left: 1140px;
+  background-color: tomato;
+   
+}
+      
+        
+
+         
+ 
+
+
+</style>
+</head>
+
+
+<h1 style="border: 2px solid Tomato;">歡迎來到我的網站</h1>
+
+
+<h2 class="box">個人資料</h2>
+<p>姓名:陳先正</p>
+<p>出生年月份:92/07/25</p>
+<p>學校:國立金門大學</p>
+<hr>
+<h2 class="city">興趣</h2>
+<p>打籃球</p>
+<p>玩手遊</p>
+<p>遊戲介面:</p>
+<img src="IMG_3996"  width="500" height="333">
+<hr>
+<h2 class="tree">個人通訊</h2>
+
+<button class="btn ig" onclick="window.open('https://www.instagram.com/kkdd_0725/', '_blank')">
+		<b>
+			IG
+        </b>
+        </button>
+
+
+
+
+
+
+</body>
+</html>
