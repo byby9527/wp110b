@@ -13,34 +13,34 @@
  }
 .a1{
 	width: 1000px;
-	height: 500px;
+	height: 600px;
     background: linear-gradient(135deg,#71b7e6,#9b59b6);
 	margin: auto;
 }
-.a2{
+a2{
 	width: 800px;
-	height: 50px;
+	height: 500px;
   	margin: auto;
 }
                 
 span{
-	margin-top: 40px;
+	margin-top: 10px;
 	width: 800px;
-	height: 450px;
+	height: 600px;
 	border:  10px solid white;
 	display:inline-block;
     
 }
-input{
+.input{
 	border: 1px solid #00000;
 	width: 220px;
 	height: 30px;
 	margin-right: -80px;
-	font-size: 15px;
+	font-size: 20px;
 	padding-left: 1px;
 	color: #ee82ee;
 }
-.botton{
+botton{
 	margin-top: 10px;
 	font-size: 12px;
 	background: #ffd647;
@@ -53,23 +53,24 @@ input{
 .title{
 	font-size: 40px;
 	color: red;
-	margin-left:100px;
+	margin-left:1px;
+ 
 }
 p{
 	margin-top: 10px;
+    text-align:center;
 }
 div {
   width:100%;
   text-align:center;
 }
+
 a{
- 
   color:DodgerBlue;
-  text-decoration: none;
-
-  
-
+  text-decoration: none;  
 }
+
+
 
 </style>
 <body>
@@ -78,12 +79,19 @@ a{
 <span>
 <form action="#" method="post">
 <p class="title">註冊</p>
-<p><input type="text" value="用戶名"></p>
-<p><input type="text" value="姓名"></p>
-<p><input type="text" value="密碼"></p>
-<p><input type="text" value="記住密碼"></p>
-<p><input type="text" value="電子信箱"></p>
-<p><input type="text" value="手機號碼"></p>
+<p><input type="text" name="name" value="" placeholder="用戶名"/></p>
+<p><input type="text" name="email" value="" placeholder="性名"/></p>
+<p><input type="text" name="name" value="" placeholder="密碼"/></p>
+<p><input type="password" name="password" value="" placeholder="記住密碼"/></p>
+<p><input type="password" name="password" value="" placeholder="電子信箱"/></p>
+<p><input type="password" name="password" value="" placeholder="手機號碼"/></p>
+
+<p>性別:</p>
+<div class="radio-line">
+<label><input type="radio" name="optradio">男</label>
+<label><input type="radio" name="optradio">女</label>
+<label><input type="radio" name="optradio">其他</label>
+</div>
 <p><input type="checkbox"name="agree">我同意使用者<a href="#">條款</a></p>
 
 
