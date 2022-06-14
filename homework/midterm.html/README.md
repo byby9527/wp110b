@@ -4,7 +4,7 @@
 
 ###  本程式修改自https://www.youtube.com/watch?v=MHUfRYypvvk&t=9s 的計時器
 
-### 主要修改內容為在CSS方面增加幾個效果與美觀
+### 主要修改內容為在CSS方面增加幾個效果與美觀，在JavaScript方面增加鍵盤按鍵的功能
 
 
 
