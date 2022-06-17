@@ -11,7 +11,7 @@
 ## 使用方法:
 
 
-### 影片連結[:https://www.youtube.com/watch?v=cUbU4-zXgMk](https://youtu.be/t3FVN9LxfHQ)
+### 影片連結[[:https://www.youtube.com/watch?v=cUbU4-zXgMk](https://youtu.be/t3FVN9LxfHQ)](https://www.youtube.com/watch?v=cUbU4-zXgMk)
 
 ### 觀看完YT影片後，點選```開始```即可進行計時，點選```暫停```時間會停止，點選```重設```時間會重新歸0
 
