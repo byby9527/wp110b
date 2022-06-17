@@ -1,7 +1,7 @@
 ## 專題報告:
 
 
-###  本程式修改自https://www.youtube.com/watch?v=LiLlsGUW4AQ&t=507s的翻譯器
+###  本程式修改自https://www.youtube.com/watch?v=LiLlsGUW4AQ&t=507s 的翻譯器
 
 ### 主要修改內容為在CSS方面微改一些效果與美觀
 
